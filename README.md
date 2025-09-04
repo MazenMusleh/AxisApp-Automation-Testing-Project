@@ -159,7 +159,7 @@ Allure Report commandline latest version
 - Right-click on testng.xml → Select Run.
 
 ### Option 2: Run via Maven
-    mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
+    mvn clean test "-Dsurefire.suiteXmlFiles=src/test/resources/testng.xml"
 
 ---
 ## 📊 Reporting
