@@ -1,0 +1,35 @@
+2025-09-05 02:53:14 [main] INFO  - === SUITE STARTED: Tealium E-Commerce Suite ===
+2025-09-05 02:53:21 [main] INFO  - === TEST CLASS STARTED: RegistrationTests ===
+2025-09-05 02:53:21 [main] INFO  - >>> STARTING Test Method: RegistrationTests.testRegistrationAlreadyRegisteredEmail
+2025-09-05 02:53:26 [main] INFO  - >>> PASSED Test Method: RegistrationTests.testRegistrationAlreadyRegisteredEmail
+2025-09-05 02:53:33 [main] INFO  - >>> STARTING Test Method: RegistrationTests.testRegistrationInvalidEmail
+2025-09-05 02:53:36 [main] INFO  - >>> PASSED Test Method: RegistrationTests.testRegistrationInvalidEmail
+2025-09-05 02:53:43 [main] INFO  - >>> STARTING Test Method: RegistrationTests.testRegistrationMissingRequiredFields
+2025-09-05 02:53:45 [main] INFO  - >>> PASSED Test Method: RegistrationTests.testRegistrationMissingRequiredFields
+2025-09-05 02:53:52 [main] INFO  - >>> STARTING Test Method: RegistrationTests.testRegistrationPasswordMismatch
+2025-09-05 02:53:54 [main] INFO  - >>> PASSED Test Method: RegistrationTests.testRegistrationPasswordMismatch
+2025-09-05 02:54:00 [main] INFO  - >>> STARTING Test Method: RegistrationTests.testSuccessfulRegistration
+2025-09-05 02:54:05 [main] INFO  - >>> PASSED Test Method: RegistrationTests.testSuccessfulRegistration
+2025-09-05 02:54:11 [main] INFO  - === TEST CLASS FINISHED: RegistrationTests ===
+2025-09-05 02:54:11 [main] INFO  - === TEST CLASS STARTED: LoginTests ===
+2025-09-05 02:54:11 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginEmptyEmail
+2025-09-05 02:54:14 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginEmptyEmail
+2025-09-05 02:54:19 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginEmptyEmailAndPassword
+2025-09-05 02:54:22 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginEmptyEmailAndPassword
+2025-09-05 02:54:29 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginEmptyPassword
+2025-09-05 02:54:33 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginEmptyPassword
+2025-09-05 02:54:38 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginWithRegisteredUser
+2025-09-05 02:54:43 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginWithRegisteredUser
+2025-09-05 02:54:49 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginWrongEmail
+2025-09-05 02:54:53 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginWrongEmail
+2025-09-05 02:54:58 [main] INFO  - >>> STARTING Test Method: LoginTests.testLoginWrongPassword
+2025-09-05 02:55:03 [main] INFO  - >>> PASSED Test Method: LoginTests.testLoginWrongPassword
+2025-09-05 02:55:12 [main] INFO  - === TEST CLASS FINISHED: LoginTests ===
+2025-09-05 02:55:12 [main] INFO  - === TEST CLASS STARTED: AddToCartTests ===
+2025-09-05 02:55:12 [main] INFO  - >>> STARTING Test Method: AddToCartTests.testAddItemToCart
+2025-09-05 02:55:20 [main] INFO  - >>> PASSED Test Method: AddToCartTests.testAddItemToCart
+2025-09-05 02:55:21 [main] INFO  - === SUITE FINISHED: Tealium E-Commerce Suite ===
+2025-09-05 02:55:21 [main] INFO  - Generating Allure Report...
+2025-09-05 02:55:25 [main] INFO  - Opening Allure Report...
+2025-09-05 02:55:25 [main] INFO  - Allure Report opened successfully
+
