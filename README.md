@@ -166,13 +166,15 @@ Allure Report commandline latest version
 
 After execution, test results are generated under:
 
-    target/allure-results/
+    allure-results/
 
 
 By default, TestListener.java automatically serves the Allure Report after test execution using:
 
 
-    allure serve target/allure-results
+    allure generate allure-results -o allure-report --clean
+
+    start allure open allure-report
 
 
 ⚡ This means you don’t need to manually run Allure — the report will open automatically in your browser when tests finish.
