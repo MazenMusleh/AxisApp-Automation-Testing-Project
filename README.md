@@ -32,6 +32,7 @@ The design follows the **Page Object Model (POM)** to ensure maintainability, sc
 
 ## 📂 Project Structure
 
+```bash
 AxisApp_Automation_Task/
 
 │── pom.xml # Maven dependencies & build config
@@ -109,7 +110,7 @@ AxisApp_Automation_Task/
 │ │ │ ├── log4j2.xml
 
 │ │ │ └── testng.xml
-
+```
 
 ---
 
