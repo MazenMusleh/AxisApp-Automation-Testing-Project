@@ -34,82 +34,61 @@ The design follows the **Page Object Model (POM)** to ensure maintainability, sc
 
 ```bash
 AxisApp_Automation_Task/
-
-│── pom.xml # Maven dependencies & build config
-
-│── .gitignore
-
-│── src/
-
-│ ├── main/
-
-│ │ ├── java/
-
-│ │ │ ├── Base/ # Driver Preparing
-
-│ │ │ │ ├── DriverFactory.java
-
-│ │ │ │ └── DriverManager.java
-
-│ │ │ ├── pages/ # Page Object classes
-
-│ │ │ │ ├── CartPage.java
-
-│ │ │ │ ├── CookiesPopup.java
-
-│ │ │ │ ├── HomePage.java
-
-│ │ │ │ ├── ItemDetailsPage.java
-
-│ │ │ │ ├── ItemsPage.java
-
-│ │ │ │ ├── LoginPage.java
-
-│ │ │ │ └── RegisterationPage.java
-
-│ │ │ ├── Utilization/ # Utilities & helpers
-
-│ │ │ │ ├── ActionsUtils.java
-
-│ │ │ │ ├── AllureUtils.java
-
-│ │ │ │ ├── AssertionUtils.java
-
-│ │ │ │ ├── ConfigManager.java
-
-│ │ │ │ ├── FakerUtils.java
-
-│ │ │ │ ├── JavaScriptUtils.java
-
-│ │ │ │ ├── LogUtils.java
-
-│ │ │ │ ├── PropertyFileReader.java
-
-│ │ │ │ ├── ScreenshotsUtils.java
-
-│ │ │ │ ├── TestListener.java
-
-│ │ │ │ └── WaitUtils.java
-
-│ │ └── resources/
-
-│ └── test/ # Test Cases classes
-
-│ │ ├── java/
-
-│ │ │ ├── AddToCartTests.java
-
-│ │ │ ├── LoginTests.java
-
-│ │ │ └── RegistrationTests.java
-
-│ │ ├── resources/
-
-│ │ │ ├── configs.properties
-
-│ │ │ ├── log4j2.xml
-
-│ │ │ └── testng.xml
+│   .gitignore
+│   pom.xml
+│   README.md
+│   Run_Video.mp4
+│   TestCasesFile.xlsx
+│   
+├───allure-report
+│       index.html
+│
+├───allure-results
+│       b59be5ab-cb7b-4023-a6f8-c2f2ba0c52bd-container.json
+│
+├───logs
+│       AxisApp_Automation_Task.log
+│
+├───src
+│   ├───main
+│   │   ├───java
+│   │   │   ├───Base
+│   │   │   │       DriverFactory.java
+│   │   │   │       DriverManager.java
+│   │   │   │
+│   │   │   ├───pages
+│   │   │   │       CartPage.java
+│   │   │   │       CookiesPopup.java
+│   │   │   │       HomePage.java
+│   │   │   │       ItemDetailsPage.java
+│   │   │   │       ItemsPage.java
+│   │   │   │       LoginPage.java
+│   │   │   │       RegisterationPage.java
+│   │   │   │
+│   │   │   └───Utilization
+│   │   │           ActionsUtils.java
+│   │   │           AllureUtils.java
+│   │   │           AssertionUtils.java
+│   │   │           ConfigManager.java
+│   │   │           FakerUtils.java
+│   │   │           JavaScriptUtils.java
+│   │   │           LogUtils.java
+│   │   │           PropertyFileReader.java
+│   │   │           ScreenshotsUtils.java
+│   │   │           TestListener.java
+│   │   │           WaitUtils.java
+│   │   │
+│   │   └───resources
+│   └───test
+│       ├───java
+│       │       AddToCartTests.java
+│       │       LoginTests.java
+│       │       RegistrationTests.java
+│       │
+│       └───resources
+│               configs.properties
+│               log4j2.xml
+│               testng.xml
 ```
 
 ---
